@@ -7,7 +7,7 @@ This project explores New York City Airbnb listings to help Airbnb hosts identif
 - `data/`  
   - Raw and cleaned CSV files (not tracked in git).
 - `README.md` – project overview and reproduction instructions.  
-- `.gitignore` – excludes large data files.
+- `.gitignore` – exclude some files.
   
 - `airbnb_cleaning.ipynb` – load raw data, clean columns, handle missing values and outliers, export cleaned dataset.  
 - `airbnb_EDA.ipynb` – inspect structure, distributions and key relationships to understand the dataset.  
@@ -23,4 +23,5 @@ To reproduce the analysis:
 1. Clone the repository.
 3. Create and activate a Python environment with the required libraries (`pandas`, `numpy`, `plotly`, etc.).
 4. Run `airbnb_cleaning.ipynb`, then `airbnb_EDA.ipynb`, then `airbnb_analysis_FINAL.ipynb` in order.
+
 
